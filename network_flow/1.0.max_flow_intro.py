@@ -8,7 +8,7 @@
  a common algorithm for solving this problem is the Ford-Fulkerson method.
  Here we find augmenting paths throught the RESIDUAL GRAPH and augment the flow till no more augmenting paths are found.
  Here residual graph means the graph with the current flow indicated along with additional possible flow.
-
+``
  and augmenting path is a path from source to sink with unused capacity > 0. That is, some edges might be occupied already but every edge on the path
  must have space for additional flow.
  Every augmenting path has a bottleneck value and this is equal to the smallest edge

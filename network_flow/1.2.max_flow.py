@@ -6,6 +6,7 @@ class Edge:
         self.b = b
         self.capacity = capacity
         self.flow = flow
+        self.residual
     
     def get_residual(self):
         return self(self.b, self.a, 0)
@@ -32,6 +33,7 @@ class FordFulkerson:
         start_node = 0
 
     def depth_first_search(self, start_node:int):
+
 
 
 
